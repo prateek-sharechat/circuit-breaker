@@ -2,7 +2,7 @@ This is the implementation of circuit breaker in Node.js.
 
 Response - 
 
-`
+  
     ┌────────────┬───────────────┐
     │  (index)   │    Values     │
     ├────────────┼───────────────┤
@@ -123,4 +123,4 @@ Response -
     │ Next State │   'CLOSED'    │
     └────────────┴───────────────┘
     { status: 200, data: 'success' }
-`
+
